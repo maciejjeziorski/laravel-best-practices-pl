@@ -20,7 +20,7 @@ Niniejszy dokument nie stanowi adaptacji zasad SOLID lub jakichkolwiek wzorców.
 
 [Masowe przypisywanie (Mass assignment)](#masowe-przypisywanie-mass-assignment)
 
-[Nie wykonuj zapytań bezpośrednio w szablonach. Używaj funkcjonaalności Eager loading'u (problem N + 1)](#nie-wykonuj-zapytań-bezpośrednio-w-szablonach-używaj-funkcjonaalności-eager-loadingu-problem-n--1)
+[Nie wykonuj zapytań bezpośrednio w szablonach. Używaj funkcjonalności Eager loading'u (problem N + 1)](#nie-wykonuj-zapytań-bezpośrednio-w-szablonach-używaj-funkcjonalności-eager-loadingu-problem-n--1)
 
 [Komentuj swój kod wszędzie](#komentuj-swój-kod-wszędzie)
 
@@ -213,7 +213,7 @@ class ArticleService
 
 ### **Zasada reużywalności kodu**
 
-Staraj się wydzielać powtarzalne części tworzonego kodu, które będzie można wykorzystywać w wielu miejsach aplikacji.
+Staraj się wydzielać powtarzalne części tworzonego kodu, które będzie można wykorzystywać w wielu miejscach aplikacji.
 Zwróć uwagę na fakt, że najwięcej reużywalnych bloków kodu można stworzyć w tych obszarach: *Blate Templates*,
 *Eloquent Scopes*, *Service Containers*, *Helpers* itd.
 
@@ -311,7 +311,7 @@ $category->article()->create($request->validated());
 
 [🔝 Wróć do zawartości](#zawartość)
 
-### **Nie wykonuj zapytań bezpośrednio w szablonach. Używaj funkcjonaalności Eager loading'u (problem N + 1)**
+### **Nie wykonuj zapytań bezpośrednio w szablonach. Używaj funkcjonalności Eager loading'u (problem N + 1)**
 
 Źle (dla 100 użytkowników zostanie wykonanych 101 zapytań do bazy danych):
 
