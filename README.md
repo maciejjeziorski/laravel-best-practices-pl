@@ -436,11 +436,11 @@ Interfejs (PDO) bazy danych | Eloquent | SQL, Doctrine
 Szablony | Blade | Twig
 Praca z danymi | Laravel collections | Arrays
 Walidacja formularzy | Request classes | 3rd party packages, validation in controller
-Uwierzytelnianie | Built-in | 3rd party packages, your own solution
+Uwierzytelnianie | Wbudowane | 3rd party packages, your own solution
 Uwierzytelnianie w API | Laravel Passport | 3rd party JWT and OAuth packages
-Tworzenie API | Built-in | Dingo API and similar packages
+Tworzenie API | Wbudowane | Dingo API and similar packages
 Zarządzanie strukturą bazy danych | Migrations | Working with DB structure directly
-Tłumaczenia / Lokalizacja | Built-in | 3rd party packages
+Tłumaczenia / Lokalizacja | Wbudowane | 3rd party packages
 Interfejsy czasu rzeczywistego | Laravel Echo, Pusher | 3rd party packages and working with WebSockets directly
 Generowanie danych testowych | Seeder classes, Model Factories, Faker | Creating testing data manually
 Planowanie zadań (CRON) | Laravel Task Scheduler | Scripts and 3rd party packages
