@@ -28,7 +28,7 @@ Niniejszy dokument nie stanowi adaptacji zasad SOLID lub jakichkolwiek wzorców.
 
 [Używaj konfiguracji, plików językowych i stałych zamiast czystego tekstu w kodzie](#używaj-konfiguracji-plików-językowych-i-stałych-zamiast-czystego-tekstu-w-kodzie)
 
-[Używaj paczek i narzędzi preferowanych przez społęczność Laravel'a](#używaj-paczek-i-narzędzi-preferowanych-przez-społęczność-laravela)
+[Używaj paczek i narzędzi preferowanych przez społeczność Laravel'a](#używaj-paczek-i-narzędzi-preferowanych-przez-społeczność-laravela)
 
 [Stosuj się do konwencji nazewnictwa w Laravelu](#stosuj-się-do-konwencji-nazewnictwa-w-laravelu)
 
@@ -415,7 +415,7 @@ return back()->with('message', __('app.article_added'));
 
 [🔝 Wróć do zawartości](#zawartość)
 
-### **Używaj paczek i narzędzi preferowanych przez społęczność Laravel'a**
+### **Używaj paczek i narzędzi preferowanych przez społeczność Laravel'a**
 
 Korzystaj z wbudowanych funkcjonalności Laravela bądź paczek stworzonych przez jego społeczność, zamiast używać
 rozwiązań i narzędzi osób trzecich. Każdy deweloper który będzie pracował z Twoją aplikacją w przyszłości, będzie musiał
