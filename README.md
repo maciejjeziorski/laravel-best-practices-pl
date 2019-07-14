@@ -426,24 +426,24 @@ klient musiał płacić za nieprzemyślane wybory oraz decyzje.
 
 Zadanie | Standardowe narzędzia | Narzędzia osób trzecich
 ------------ | ------------- | -------------
-Autoryzacja | Policies | Entrust, Sentinel and other packages
-Kompilowanie zasobów | Laravel Mix | Grunt, Gulp, 3rd party packages
+Autoryzacja | Policies | Entrust, Sentinel i inne paczki
+Kompilowanie zasobów | Laravel Mix | Grunt, Gulp, paczki osób trzecich
 Środowisko deweloperskie | Homestead | Docker
-Integracja ciągła | Laravel Forge | Deployer and other solutions
+Integracja ciągła | Laravel Forge | Deployer i inne rozwiązania
 Testowanie jednostkowe | PHPUnit, Mockery | Phpspec
 Testy przeglądarki | Laravel Dusk | Codeception
 Interfejs (PDO) bazy danych | Eloquent | SQL, Doctrine
 Szablony | Blade | Twig
-Praca z danymi | Laravel collections | Arrays
-Walidacja formularzy | Request classes | 3rd party packages, validation in controller
-Uwierzytelnianie | Wbudowane | 3rd party packages, your own solution
-Uwierzytelnianie w API | Laravel Passport | 3rd party JWT and OAuth packages
-Tworzenie API | Wbudowane | Dingo API and similar packages
-Zarządzanie strukturą bazy danych | Migrations | Working with DB structure directly
-Tłumaczenia / Lokalizacja | Wbudowane | 3rd party packages
-Interfejsy czasu rzeczywistego | Laravel Echo, Pusher | 3rd party packages and working with WebSockets directly
-Generowanie danych testowych | Seeder classes, Model Factories, Faker | Creating testing data manually
-Planowanie zadań (CRON) | Laravel Task Scheduler | Scripts and 3rd party packages
+Praca z danymi | Laravel collections | Tablice
+Walidacja formularzy | Request classes | Paczki osób trzecich, walidacja w kontrolerze
+Uwierzytelnianie | Wbudowane | Paczki osób trzecich, własne implementacje
+Uwierzytelnianie w API | Laravel Passport | Paczki JWT i OAuth osób trzecich
+Tworzenie API | Wbudowane | Dingo API i podobne paczki
+Zarządzanie strukturą bazy danych | Migrations | bezpośrednie tworzenie tabel w bazie (np. przez phpMyAdmin lub komendami)
+Tłumaczenia / Lokalizacja | Wbudowane | Paczki osób trzecich
+Interfejsy czasu rzeczywistego | Laravel Echo, Pusher | Paczki osób trzecich, własne implementacje
+Generowanie danych testowych | Seeder classes, Model Factories, Faker | Ręczne tworzenie danych testowych
+Planowanie zadań (CRON) | Laravel Task Scheduler | Paczki osób trzecich, własne skrypty
 Bazy danych | MySQL, PostgreSQL, SQLite, SQL Server | MongoDB
 
 [🔝 Wróć do zawartości](#zawartość)
