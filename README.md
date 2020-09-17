@@ -288,7 +288,7 @@ Article::has('user.profile')->verified()->latest()->get();
 
 ### **Masowe przypisywanie (Mass assignment)**
 
-Wykorzystuj wbudowaną funkcjonalność *Mass Assignment* - dzięki temu kod stanie się bardziej czytelniejszy. Nie zapomnij
+Wykorzystuj wbudowaną funkcjonalność *Mass Assignment* - dzięki temu kod stanie się czytelniejszy. Nie zapomnij
 o walidacji danych, a także określeniu polityki bezpieczeństwa pól modelu (*fillable* oraz *guarded*).
 
 Źle:
